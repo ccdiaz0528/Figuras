@@ -21,7 +21,7 @@ void rectangulo(double base, double altura){
 
 area=base*altura;
 perimetro=2*(base+altura);
-System.out.println("El area del rectangulo es: "+area+" cm");
+System.out.println("\nEl area del rectangulo es: "+area+" cm");
 System.out.println("El perimetro del rectangulo es: "+perimetro+" cm");
 
 }
@@ -29,7 +29,7 @@ System.out.println("El perimetro del rectangulo es: "+perimetro+" cm");
 void cuadrado(double lado){
 area=lado*lado;
 perimetro=4*lado;
-System.out.println("El area del cuadrado es: "+area+" cm");
+System.out.println("\nEl area del cuadrado es: "+area+" cm");
 System.out.println("El perimetro del cuadrado es: "+perimetro+" cm");
 }
 
@@ -37,13 +37,13 @@ System.out.println("El perimetro del cuadrado es: "+perimetro+" cm");
 void triangulo(double base, double altura,double lado1,double lado2,double lado3){
 area=0.5*base*altura;
 perimetro=lado1+lado2+lado3;
-System.out.println("El area del triangulo es: "+area+" cm");
+System.out.println("\nEl area del triangulo es: "+area+" cm");
 System.out.println("El perimetro del triangulo es: "+perimetro+" cm");
 }
 
 void hipotenusa(double lado1, double lado2){
 hipotenusa=(lado1 * lado1 + lado2 * lado2);
-System.out.println("La hipotenusa del triangulo rectangulo es de: "+hipotenusa);
+System.out.println("\nLa hipotenusa del triangulo rectangulo es de: "+hipotenusa);
 
 }
 
